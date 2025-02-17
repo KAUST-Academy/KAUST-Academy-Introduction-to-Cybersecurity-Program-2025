@@ -11,19 +11,28 @@
 - [Lena Alqahtani](https://www.linkedin.com/in/lena-m-alqahtan)
 - [Abdulrahman Al Mutairi](https://www.linkedin.com/in/abdulrahman-al-mutairi-b9236426b)
 
-## Schedule  
-> The program will cover Information Security fundamentals and fields, including but not limited to:
+## Program Overview
 
-### Subjects Covered:
+The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to provide participants with a foundational understanding of cybersecurity principles, practical skills, and emerging security challenges. The program will blend theoretical concepts with hands-on exercises to help students develop essential skills required in the cybersecurity field.
+
+### Learning Objectives
+- Gain a broad understanding of cybersecurity fundamentals and best practices.
+- Develop hands-on experience in various cybersecurity tools and techniques.
+- Learn about common security threats and mitigation strategies.
+- Explore the ethical and legal aspects of cybersecurity.
+- Understand cryptographic principles and secure communication methods.
+
+## Topics Covered
 - Introduction to Cybersecurity
 - Digital Forensics
 - Cryptography
 - Authentication (Password Security)
 - Network Security
 - Web Security
-- Social Engineering  
+- Social Engineering
 
-## Tentative Schedule (subject to change)
+## Schedule  
+> The program will cover Information Security fundamentals and fields, including but not limited to:
 
 ### Day 1 (Saturday)
 | Time    | Activity |
@@ -53,4 +62,12 @@
 | 1:00PM - 3:00PM | Lecture |
 | 3:00PM - 3:10PM | Break |
 | 3:10PM - 5:00PM | Lecture |
+
+## Program Requirements
+- Basic knowledge of computers and networks.
+- Interest in cybersecurity and willingness to engage in hands-on exercises.
+- A laptop with an internet connection for practical sessions.
+
+## Certification
+Participants who successfully complete the program and meet attendance requirements will receive a **Certificate of Completion** from KAUST Academy.
 
