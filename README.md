@@ -1,13 +1,13 @@
 # KAUST Academy Introduction to Cybersecurity Program 2025
 
-## Instructor
+## Instructors
 
-[Dr. Danish Vasan](https://www.linkedin.com/in/danish-vasan-1619001bb/)
-[Dr. Adel Saeed Alshamrani](https://www.linkedin.com/in/adel-alshamrani-4b931427/?originalSubdomain=sa)
-[Dr. Ahmad Sheikh](https://cemse.kaust.edu.sa/profiles/ahmad-tariq-sheikh)
-[Dr. Maurantonio Caprolu](https://scholar.google.com/citations?user=d_65cegAAAAJ&hl=en)
-[Dr. Rashid Tahir](https://www.linkedin.com/in/rashid-tahir-92343b17/?originalSubdomain=sa)
-[Dr. Bander Bin Jabr](https://www.linkedin.com/in/bander-jabr-phd-b2420032/?originalSubdomain=sa)
+- [Dr. Danish Vasan](https://www.linkedin.com/in/danish-vasan-1619001bb/)
+- [Dr. Adel Saeed Alshamrani](https://www.linkedin.com/in/adel-alshamrani-4b931427/?originalSubdomain=sa)
+- [Dr. Ahmad Sheikh](https://cemse.kaust.edu.sa/profiles/ahmad-tariq-sheikh)
+- [Dr. Maurantonio Caprolu](https://scholar.google.com/citations?user=d_65cegAAAAJ&hl=en)
+- [Dr. Rashid Tahir](https://www.linkedin.com/in/rashid-tahir-92343b17/?originalSubdomain=sa)
+- [Dr. Bander Bin Jabr](https://www.linkedin.com/in/bander-jabr-phd-b2420032/?originalSubdomain=sa)
 
 ## Teaching Assistants
 
