@@ -1,0 +1,105 @@
+In the first lab, our task is to prepare the course environment. 
+First, the instructor share a folder with the required files with the class.
+Then the instructor guide the class through the installation and setup of necessary software. 
+Project each step to ensure clarity and understanding among the participants. 
+Below are the steps to follow to set up the lab environment.
+
+Install Kali Linux on VMware or VirtualBox for Windows and Intel based MacBooks
+    # VMware Installation
+        https://www.broadcom.com
+        - On the top right go to "Support Portal" and create an account.
+        - After that you can choose the version of VMware workstation by viewing the arrow in the right-hand side.
+        - Select the latest version (17.6.2). Then check the agree box.
+        - Click on the small cloud to download.
+        - It may ask you to provide more information click "Yes" and fill the required fields.
+        - You'll be redirected to the download page. Click the small cloud again to start the download..
+
+    # VMware Kali
+        https://www.kali.org/get-kali/#kali-virtual-machines
+        - Install the VMware "Recommended" image.
+        - Unzip "kali-linux-2024.4-vmware-amd64.7z".
+        - Start VMware then click on "Open a Virtual Machine".
+        - Locate and select the file we just extracted.
+        - username: kali
+        - password: kali
+
+        
+    # VirtualBox Installation
+        https://www.virtualbox.org/wiki/Downloads
+        - Install one of the platforms shown in the bottom left.
+        - Install the "VirtualBox Extension Pack" from the bottom right. After clicking "Accept and Download," the download will begin.
+
+    # VirtualBox Kali
+        https://www.kali.org/get-kali/#kali-virtual-machines
+        - Install the VirtualBox "Recommended" image.
+        - Unzip "kali-linux-2024.4-virtualbox-amd64.7z".
+        Add way:
+            - Start VirtualBox then click on "Add".
+            - Locate and select the file we just extracted.
+        Easy way:
+            - double click on the "kali-linux-2024.4-virtualbox-amd64.vbox" file which will automatically import the machine.
+
+    - username: kali
+    - password: kali
+
+
+# Install Kali Linux and Virtual Machines on macOS
+Check your MacBook’s architecture to determine whether it’s Intel-based or ARM-based
+(To check: Click on the Apple logo → About This Mac).
+
+    https://www.kali.org/get-kali/#kali-installer-images
+    - Download the ARM64 version of the Kali Linux ISO for Apple Silicon from
+
+    - Option 1 Recommended : VMware Fusion Pro for Personal Use (For Intel-based and Apple silicon Macs)
+    - Create an account on Broadcom Quick link to the registration form (https://profile.broadcom.com/web/registration), search for VMware and
+    - download the latest version use this blog: VMware Download (https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html).
+    - After installation, Check the box for personal-use license.
+    - To create a new machine, Select Install from disc or image and upload the Kali ISO image you installed.
+    - You will be prompted to configure your machine, Select Linux Configuration : Linux - Debian 12.x 64-bit Arm
+    - Customize your settings and finish.
+
+    Option 2: Parallels Desktop: 14-day free trial (Not recommended) - Download here (https://www.parallels.com/products/desktop/trial/).
+
+    Option 3: UTM VM (https://mac.getutm.app/).
+    Helpful installation guide: UTM Guest VM on Kali (https://www.kali.org/docs/virtualization/install-utm-guest-vm/).
+    Video tutorials: YouTube Guide 1 (https://www.youtube.com/watch?v=2Y4QHDIiGLg&feature=youtu.be) and 
+    YouTube Guide 2 (https://www.youtube.com/watch?v=U09soewiu18&feature=youtu.be).
+
+# Install Metasploitable on VMware (Windows & ~Intel based MacBooks) 
+    https://www.rapid7.com/products/metasploit/metasploitable/
+    - Download and unzip "metasploitable-linux-2.0.0.zip"
+    - Double click "Metasploitable.vmx" then select "I Copied It"
+
+
+# Install Metasploitable on VirtualBox (Windows & ~Intel based MacBooks) 
+    https://www.rapid7.com/products/metasploit/metasploitable/
+    - Download and unzip "metasploitable-linux-2.0.0.zip"
+    - Open VirtualBox
+    - Go to machine > new
+        - name: "metasploitable"
+        - type: Linux
+        Go to hardware > Use an existing Virtual Hard Disk file > select the "Metasploitable.vmdk"
+        Finish
+
+## Notes: ##
+-Problem: Available only for Windows devices and Intel Mac machines (not Apple Silicon).
+-Solution: Students using M1/M2 MacBooks converted the VMDK file to QCOW2 by following these steps:
+
+    Install Homebrew.
+    Install QEMU using Homebrew.
+    Convert the VMDK file to QCOW2 using the command:
+    `qemu-img convert -p -O qcow2 Metasploitable.vmdk Metasploitable.qcow2`.
+    Run the .qcow2 file in UTM (emulation mode).
+    Disable UEFI Boot in the VM settings.
+
+Problem: Some tools and programs do not run on the ARM version of Kali (M1/M2).
+Solution: There is no direct fix. The alternatives are:
+    
+    Using an Intel/AMD laptop.
+    Running the machine on a cloud-hosted VM platform (though this may not be practical).
+
+- If the resolution of Kali is very low/stretched, inside Kali go to the logo on the top left corner, select Settings, Settings Manager, Display and change the resolution
+- If the copy/paste functionality of virtualbox is not working (even if it's selected in the settings), go to Devices (right ctrl-C if you have to, to see this menu), Shared Folders, Shared Folders Settings, and add a folder you'd like access to inside Kali. This way you can copy/paste from files inside that folder.
+
+	
+	
