@@ -37,31 +37,31 @@ The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to 
 > The program will cover Information Security fundamentals and fields, including but not limited to:
 
 ### **Day 1 (Saturday, February 15, 2025)**
-| Time    | Activity |
-| -------- | ------- |
-| 9:00AM - 10:00AM | Lecture |
-| 10:00AM - 10:15AM | Break |
-| 10:15AM - 12:00PM | Lecture |
-| 12:00PM - 1:00PM | Lunch |
-| 1:00PM - 3:00PM | Lecture |
-| 3:00PM - 3:10PM | Break |
-| 3:10PM - 5:00PM | Lecture |
+| Time    | Session Type | Activity |
+| -------- | ----------- | ------- |
+| 9:00AM - 10:00AM | **Theory** | Lecture |
+| 10:00AM - 10:10AM | **Break** | Short Break |
+| 10:10AM - 12:00PM | **Hands-on** | Practical Session |
+| 12:00PM - 1:00PM | **Lunch Break** | Lunch |
+| 1:00PM - 3:00PM | **Theory** | Lecture |
+| 3:00PM - 3:10PM | **Break** | Short Break |
+| 3:10PM - 5:00PM | **Hands-on** | Practical Session |
 
 ### **Half Days (Sunday - Thursday, February 16 - 20, 2025)**
-| Time    | Activity |
-| -------- | ------- |
-| 4:00PM - 5:30PM | Lecture |
-| 5:30PM - 6:00PM | Break |
-| 6:00PM - 8:00PM | Lecture |
+| Time    | Session Type | Activity |
+| -------- | ----------- | ------- |
+| 4:00PM - 5:30PM | **Theory** | Lecture |
+| 5:30PM - 6:00PM | **Break** | Maghrib Prayer & Tea Break |
+| 6:00PM - 8:00PM | **Hands-on** | Practical Session |
 
 ### **Day 7 (Friday, February 21, 2025) - Final Exam Day**
-| Time    | Activity |
-| -------- | ------- |
-| 9:00AM - 10:00AM | Lecture |
-| 10:00AM - 10:15AM | Break |
-| 10:15AM - 11:00AM | Lecture |
-| 11:00AM - **1:30PM** | **Al-Jumah Prayer & Lunch Break** |
-| **2:00PM - 3:30PM** | **Final Exam (No Break, No Class After Prayer)** |
+| Time    | Session Type | Activity |
+| -------- | ----------- | ------- |
+| 9:00AM - 10:00AM | **Theory** | Lecture |
+| 10:00AM - 10:10AM | **Break** | Short Break |
+| 10:10AM - 11:00AM | **Hands-on** | Practical Session |
+| 11:00AM - **1:30PM** | **Break** | **Al-Jumah Prayer & Lunch Break** |
+| **2:00PM - 3:30PM** | **Final Exam** | **No Break, No Class After Prayer** |
 ---
 
 ## 🎓 Program Requirements
