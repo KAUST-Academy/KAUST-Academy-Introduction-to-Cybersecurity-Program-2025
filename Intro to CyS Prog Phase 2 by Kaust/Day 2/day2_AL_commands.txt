@@ -1,0 +1,49 @@
+--------Preliminaries------------
+mkdir openSSL_demo
+cd openSSL_demo
+mkdir alice
+mkdir bob
+mkdir kaust_ca
+
+--------Alice generates her key pairs and a certificate signing request--------
+openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -pkeyopt rsa_keygen_pubexp:3 -out alice/privkey-A.pem
+openssl pkey -in alice/privkey-A.pem -pubout -out alice/pubkey-A.pem
+openssl req -new -key alice/privkey-A.pem -out alice/A-req.csr
+
+--------Bob generates his key pairs and a certificate signing request--------
+openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -pkeyopt rsa_keygen_pubexp:3 -out bob/privkey-B.pem
+openssl pkey -in bob/privkey-B.pem -pubout -out bob/pubkey-B.pem
+openssl req -new -key bob/privkey-B.pem -out bob/B-req.csr
+
+--------KAUST_CA generates its key pairs--------
+openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -pkeyopt rsa_keygen_pubexp:3 -out kaust_ca/privkey-CA.pem
+openssl pkey -in kaust_ca/privkey-CA.pem -pubout -out kaust_ca/pubkey-CA.pem
+
+--------KAUST_CA generates its self-signed certificate--------
+openssl req -x509 -new -nodes -key kaust_ca/privkey-CA.pem -sha256 -days 1024 -out kaust_ca/root.crt
+cp kaust_ca/root.crt alice
+cp kaust_ca/root.crt bob
+
+--------CA generates and signs a certificate for Alice and Bob---------
+openssl x509 -req -in alice/A-req.csr -CA kaust_ca/root.crt -CAkey kaust_ca/privkey-CA.pem -CAcreateserial -out alice/A.crt -days 500 -sha256
+openssl x509 -req -in bob/B-req.csr -CA kaust_ca/root.crt -CAkey kaust_ca/privkey-CA.pem -CAcreateserial -out bob/B.crt -days 500 -sha256
+cp bob/B.crt alice/
+
+--------Alice verifies Bob’s public certificate----------
+openssl verify -CAfile alice/root.crt alice/B.crt
+
+--------Alice extracts Bob’s public key and Encrypt-----
+openssl x509 -pubkey -in alice/B.crt -noout > alice/pubkey-B.pem
+echo "This is a private file" > alice/myfile.txt
+openssl pkeyutl -encrypt -in alice/myfile.txt -pubin -inkey alice/pubkey-B.pem -out alice/myfile.enc
+
+--------Additional Security---------
+openssl dgst -sha1 -sign alice/privkey-A.pem -out alice/signature.bin alice/myfile.txt
+cp alice/myfile.enc alice/signature.bin bob 
+
+--------File Decryption and verification--------
+openssl pkeyutl -decrypt -in bob/myfile.enc -inkey bob/privkey-B.pem -out bob/myfile.txt
+cp alice/A.crt bob/
+openssl x509 -pubkey -in bob/A.crt -noout > bob/pubkey-A.pem
+openssl verify -CAfile bob/root.crt bob/A.crt
+openssl dgst -sha1 -verify bob/pubkey-A.pem -signature bob/signature.bin bob/myfile.txt
