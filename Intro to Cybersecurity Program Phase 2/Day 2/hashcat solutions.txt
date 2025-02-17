@@ -1,0 +1,8 @@
+./hashcat -m 100 -a 3 1052dade1b76d3c28feaaafa57ad6a09b202c9fc ?d?d?d?d?d?d -- 564298
+
+./hashcat -m 100 -a 3 -1 ?l?d 7782ded1754e94eea8fc6045edf1f024eb45dff3 ?1?1?1?1?1?1 – g69g3b
+
+hashcat.exe -m 100 -a 0 aac9ecdcb18d37fc7357891a7a8a90b599cebc72 /usr/share/wordlists/rockyou.txt - iq0d8ua5h900
+./hashcat -m 1400 -a 3 29b48c7194c25f057bf5b4b136266e676a1baf4510e798e2b29ccc68cfa4d01f ?l?l?l?l?l?l?l?l -- qwertybo
+
+./hashcat -m 1400 -a 3 -1 ?l?d ba2bfb146095669e9ac997851982c45ad80bc0e0f0e05a8019ef2c3b2654c8e3 ?1?1?1?1?1?1?1?1 – qwerty78
