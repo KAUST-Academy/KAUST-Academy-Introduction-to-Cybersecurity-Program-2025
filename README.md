@@ -31,7 +31,9 @@ The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to 
 - Web Security
 - Social Engineering
 
-## Schedule  
+---
+
+## 📅 Program Schedule  
 > The program will cover Information Security fundamentals and fields, including but not limited to:
 
 ### Day 1 (Saturday)
@@ -63,11 +65,47 @@ The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to 
 | 3:00PM - 3:10PM | Break |
 | 3:10PM - 5:00PM | Lecture |
 
-## Program Requirements
+---
+
+## 🎓 Program Requirements
 - Basic knowledge of computers and networks.
 - Interest in cybersecurity and willingness to engage in hands-on exercises.
 - A laptop with an internet connection for practical sessions.
 
-## Certification
+## 🏆 Certification
 Participants who successfully complete the program and meet attendance requirements will receive a **Certificate of Completion** from KAUST Academy.
 
+---
+
+# 📚 Final Exam Details  
+
+## 📝 Exam Format  
+- **Total Questions:** 60 Multiple Choice Questions (MCQs)  
+- **Duration:** 90 minutes  
+- **Coverage:** Theoretical and practical aspects of the course  
+- **Exam Type:** Paper-based  
+
+
+## ⏰ Exam Schedule  
+- **📅 Date:** 21st February 2025  
+- **🕑 Start Time:** 2:00 PM  
+- **🕞 End Time:** 3:30 PM  
+- **📍 Venues:** All venues will start simultaneously  
+
+## 📌 Exam Rules  
+- The exam is **closed book**, meaning the following items are **not allowed**:  
+  ❌ Notes  
+  ❌ Tablets  
+  ❌ Phones  
+  ❌ Smartwatches  
+  ❌ Laptops  
+  ❌ Any other electronic device  
+
+ 
+
+## 💬 Feedback & Questions  
+If you have any **suggestions, feedback, or concerns**, feel free to share! Your input is valuable in ensuring a smooth examination process.  
+
+---
+
+🔹 *Thank you for your dedication and commitment!* 🚀
