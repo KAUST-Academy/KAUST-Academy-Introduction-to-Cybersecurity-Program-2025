@@ -33,10 +33,10 @@ The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to 
 
 ---
 
-## 📅 Program Schedule  
+## Program Schedule  
 > The program will cover Information Security fundamentals and fields, including but not limited to:
 
-### Day 1 (Saturday)
+### **Day 1 (Saturday, February 15, 2025)**
 | Time    | Activity |
 | -------- | ------- |
 | 9:00AM - 10:00AM | Lecture |
@@ -47,14 +47,14 @@ The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to 
 | 3:00PM - 3:10PM | Break |
 | 3:10PM - 5:00PM | Lecture |
 
-### Half Days (Sunday - Thursday)
+### **Half Days (Sunday - Thursday, February 16 - 20, 2025)**
 | Time    | Activity |
 | -------- | ------- |
 | 4:00PM - 5:30PM | Lecture |
 | 5:30PM - 6:00PM | Break |
 | 6:00PM - 8:00PM | Lecture |
 
-### Day 7 (Friday)
+### **Day 7 (Friday, February 21, 2025)**
 | Time    | Activity |
 | -------- | ------- |
 | 9:00AM - 10:00AM | Lecture |
@@ -64,7 +64,6 @@ The **KAUST Academy Introduction to Cybersecurity Program 2025** is designed to 
 | 1:00PM - 3:00PM | Lecture |
 | 3:00PM - 3:10PM | Break |
 | 3:10PM - 5:00PM | Lecture |
-
 ---
 
 ## 🎓 Program Requirements
