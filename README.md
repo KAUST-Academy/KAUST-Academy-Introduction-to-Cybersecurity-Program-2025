@@ -3,6 +3,11 @@
 ## Instructor
 
 [Dr. Danish Vasan](https://www.linkedin.com/in/danish-vasan-1619001bb/)
+[Dr. Adel Saeed Alshamrani](https://www.linkedin.com/in/adel-alshamrani-4b931427/?originalSubdomain=sa)
+[Dr. Ahmad Sheikh](https://cemse.kaust.edu.sa/profiles/ahmad-tariq-sheikh)
+[Dr. Maurantonio Caprolu](https://scholar.google.com/citations?user=d_65cegAAAAJ&hl=en)
+[Dr. Rashid Tahir](https://www.linkedin.com/in/rashid-tahir-92343b17/?originalSubdomain=sa)
+[Dr. Bander Bin Jabr](https://www.linkedin.com/in/bander-jabr-phd-b2420032/?originalSubdomain=sa)
 
 ## Teaching Assistants
 
@@ -10,6 +15,7 @@
 - [Nouf Alamoudi](https://www.linkedin.com/in/nouf-alamoudi)
 - [Lena Alqahtani](https://www.linkedin.com/in/lena-m-alqahtan)
 - [Abdulrahman Al Mutairi](https://www.linkedin.com/in/abdulrahman-al-mutairi-b9236426b)
+- Others
 
 ## Program Overview
 
